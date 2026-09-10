@@ -1,43 +1,41 @@
-```markdown
-# Project documentation and templates
-.github/
-CONTRIBUTING.md
-DISCLAIMER.md
-PRIVACY.md
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+target/
 
-# Logs and temporary files
+# Dependencies
+.venv/
+venv/
+node_modules/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+
+# Logs and temp files
 *.log
 *.tmp
+*.swp
+*.swo
 
-# Environment variables
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Build artifacts and dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+# Coverage
 coverage/
 htmlcov/
 .coverage
